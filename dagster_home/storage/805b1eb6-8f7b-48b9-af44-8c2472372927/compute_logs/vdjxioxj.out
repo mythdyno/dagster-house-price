@@ -1,6 +1,0 @@
-Using Colab cache for faster access to the 'housing-prices-dataset' dataset.
-['Housing.csv']
-Index(['price', 'area', 'bedrooms', 'bathrooms', 'stories', 'mainroad',
-       'guestroom', 'basement', 'hotwaterheating', 'airconditioning',
-       'parking', 'prefarea', 'furnishingstatus'],
-      dtype='object')
