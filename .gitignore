@@ -1,5 +1,4 @@
 dagster_home/
-.config/
 __pycache__/
-*.pyc
-.env
+*.db
+.ipynb_checkpoints/
