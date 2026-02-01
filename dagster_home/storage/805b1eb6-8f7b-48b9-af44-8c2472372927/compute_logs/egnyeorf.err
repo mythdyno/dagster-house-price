@@ -1,0 +1,10 @@
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - LOGS_CAPTURED - Started capturing logs in process (pid: 8974).
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - STEP_START - Started execution of step "model_knn".
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_knn - Loading file from: /content/dagster_home/storage/features using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - LOADED_INPUT - Loaded input "features" using input manager "io_manager", from output "result" of step "features"
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - STEP_INPUT - Got input "features" of type "Any". (Type check passed).
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_knn - Writing file at: /content/dagster_home/storage/model_knn using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:02 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - ASSET_MATERIALIZATION - Materialized value model_knn.
+2026-02-01 12:57:03 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-02-01 12:57:03 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8974 - model_knn - STEP_SUCCESS - Finished execution of step "model_knn" in 683ms.

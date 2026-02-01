@@ -1,0 +1,8 @@
+
+MODEL RMSE COMPARISON (House Price Prediction)
+DecisionTree: 1625669.90
+KNN: 1792718.55
+LinearRegression: 1324506.96
+RandomForest: 1400565.97
+
+BEST MODEL: LinearRegression

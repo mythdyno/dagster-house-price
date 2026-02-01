@@ -1,0 +1,7 @@
+2026-02-01 12:56:37 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - LOGS_CAPTURED - Started capturing logs in process (pid: 8514).
+2026-02-01 12:56:37 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - raw_data - STEP_START - Started execution of step "raw_data".
+2026-02-01 12:56:39 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - raw_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-02-01 12:56:39 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - raw_data - Writing file at: /content/dagster_home/storage/raw_data using PickledObjectFilesystemIOManager...
+2026-02-01 12:56:39 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - raw_data - ASSET_MATERIALIZATION - Materialized value raw_data.
+2026-02-01 12:56:39 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - raw_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-02-01 12:56:39 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 8514 - raw_data - STEP_SUCCESS - Finished execution of step "raw_data" in 1.46s.

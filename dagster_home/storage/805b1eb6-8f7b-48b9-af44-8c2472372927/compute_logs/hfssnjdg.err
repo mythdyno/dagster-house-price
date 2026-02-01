@@ -1,0 +1,19 @@
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - LOGS_CAPTURED - Started capturing logs in process (pid: 9570).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_START - Started execution of step "model_comparison".
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_comparison - Loading file from: /content/dagster_home/storage/model_dt using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - LOADED_INPUT - Loaded input "model_dt" using input manager "io_manager", from output "result" of step "model_dt"
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_comparison - Loading file from: /content/dagster_home/storage/model_knn using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - LOADED_INPUT - Loaded input "model_knn" using input manager "io_manager", from output "result" of step "model_knn"
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_comparison - Loading file from: /content/dagster_home/storage/model_lr using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - LOADED_INPUT - Loaded input "model_lr" using input manager "io_manager", from output "result" of step "model_lr"
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_comparison - Loading file from: /content/dagster_home/storage/model_rf using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - LOADED_INPUT - Loaded input "model_rf" using input manager "io_manager", from output "result" of step "model_rf"
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_INPUT - Got input "model_dt" of type "Any". (Type check passed).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_INPUT - Got input "model_knn" of type "Any". (Type check passed).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_INPUT - Got input "model_lr" of type "Any". (Type check passed).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_INPUT - Got input "model_rf" of type "Any". (Type check passed).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - model_comparison - Writing file at: /content/dagster_home/storage/model_comparison using PickledObjectFilesystemIOManager...
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - ASSET_MATERIALIZATION - Materialized value model_comparison.
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-02-01 12:57:27 +0000 - dagster - DEBUG - __ASSET_JOB - 805b1eb6-8f7b-48b9-af44-8c2472372927 - 9570 - model_comparison - STEP_SUCCESS - Finished execution of step "model_comparison" in 526ms.
